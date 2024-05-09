@@ -45,7 +45,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: hungduonglevel11/TestInGitHubRunners
-        path: TestInGitHubRunners
+        # path: TestInGitHubRunners
 
     - uses: actions/setup-node@v4
       with:
