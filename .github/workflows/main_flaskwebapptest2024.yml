@@ -35,6 +35,8 @@ jobs:
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_6e5dbfcf4c0145bb8aadcdd038dc2837 }}
 
   test:
+    needs: build-and-deploy
+
     timeout-minutes: 60
     runs-on: ubuntu-latest
 
