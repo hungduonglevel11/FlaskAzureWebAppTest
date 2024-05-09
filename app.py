@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 testing_types = [
-  { 'name': 'unit testing 1', 'description': 'testing individual units of source code' }
+  { 'name': 'Mark H want to see', 'description': 'testing individual units of source code' }
 ]
 
 @app.route('/tests')
